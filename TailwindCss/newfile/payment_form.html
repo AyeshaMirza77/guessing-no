@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./paymentsform.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+</head>
+<body>
+    <a href="../tailwindfile/practicefile.html"> back to page</a>
+    <h1 class="blueColur textRed minifyWidth">Payment form</h1>
+    <h2 class="blueColur textwhite minifyWidth">contact information</h2>
+    <p> required fields are followed by *</p>
+    <h2 class="greenColor">contact information</h2>
+    <form action="">
+       <p>Name *<input type="text"name="name" required></p>
+       <fieldset>
+        <legend>gender *</legend>
+    <p>male: <input type="radio" name="gender" required id="male"> female: <input type="radio" name="gender" id="female" required>
+    </p>
+</fieldset>
+     <p>adress: <textarea name="address" id="address" cols="100" rows="7"></textarea></p>
+     <p>email: * <input type="email" id="email" required></p>
+     <p>pincode: * <input type="number" name="pincode" id="pincode" required></p>
+     <hr>
+     <h2>payment information</h2>
+     <p>card type:*
+        <select name="card_type" id="card_type" required>
+            <option value="">--select a card type--</option>
+            <option value="visa">visa</option>
+            <option value="rupees">rupees</option>
+            <option value="dollar">dollar</option>
+            <option value="master card">master card</option>
+        </select>
+     </p>
+     <p>
+        Card number *<input type="number" name="card_number" id="card_number" required>
+     </p>
+     <p>
+        card expiration:* <input type="date" name="exp_date"id="exp_date" required>
+     </p>
+     <p> cvv * <input type="password" name="cvv" id="cvv" required></p>
+     <input type="submit" value="pay now"> <input type="reset" value="reset">
+
+    </form>
+<div class="multipleStyles">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quo consequuntur deserunt sit sapiente, laudantium, illo voluptas quia ullam sint fuga quibusdam dignissimos quos amet vitae iusto a expedita tempora.</p>
+</div>
+</body>
+</html>
